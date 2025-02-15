@@ -87,5 +87,8 @@ func getPublicIP() (string, error) {
 	if err != nil {
 		return "", err
 	}
+	
 	return string(ip), nil
 }
+
+#dummy
